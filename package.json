@@ -2,8 +2,14 @@
   "name": "playwright-docs",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/skitterm/playwright-docs.git",
-  "author": "Steven Kitterman <steven.kitterman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skitterm/playwright-docs.git"
+  },
+  "author": {
+    "name": "Steven Kitterman",
+    "email": "steven.kitterman@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@chromatic-com/playwright": "0.5.3",
@@ -16,6 +22,11 @@
   },
   "scripts": {
     "archive-storybook": "archive-storybook",
-    "build-archive-storybook": "build-archive-storybook"
-  }
+    "build-archive-storybook": "build-archive-storybook",
+    "chromatic": "npx chromatic --playwright -t=chpt_859d54b398fdc3c"
+  },
+  "bugs": {
+    "url": "https://github.com/skitterm/playwright-docs/issues"
+  },
+  "homepage": "https://github.com/skitterm/playwright-docs#readme"
 }
