@@ -22,7 +22,7 @@
   },
   "scripts": {
     "archive-storybook": "archive-storybook",
-    "build-archive-storybook": "build-archive-storybook",
+    "build-archive-storybook": "sls",
     "chromatic": "npx chromatic --playwright -t=chpt_859d54b398fdc3c"
   },
   "bugs": {
