@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Playwright
         run: |
-          yarn create playwright 
+          npx playwright install --with-deps 
 
       - name: Run tests
         run: |
